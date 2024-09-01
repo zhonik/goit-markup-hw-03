@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-My first website!
+# goit-markup-hw-02
+Add CSS-styles!
