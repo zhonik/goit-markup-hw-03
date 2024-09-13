@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 1440px;
+  width: 1470px;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -49,11 +49,6 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-section {
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .section-title {
@@ -365,17 +360,10 @@ section {
 }
 
 /* Footer */
-footer {
-  background: #2e2f42;
-  padding-left: 156px;
-}
 
 .footer {
   padding: 100px 0;
-}
-
-.footer .container {
-  width: 264px;
+  background: #2e2f42;
 }
 
 .footer .logo {
@@ -392,4 +380,5 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
