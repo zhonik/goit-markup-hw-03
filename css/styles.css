@@ -25,9 +25,6 @@ a {
   padding: 0;
   text-decoration: none;
 }
-button {
-  cursor: pointer;
-}
 
 h1,
 h2,
@@ -49,17 +46,15 @@ img {
 
 /* Wrapper */
 .container {
-  max-width: 1128px;
-  padding-left: 0;
-  padding-right: 0;
+  width: 1158px;
+  padding-left: 15;
+  padding-right: 15;
   margin-left: 0;
   margin-right: 0;
 }
 
-.section {
-  padding-top: 120px;
+section {
   padding-right: 156px;
-  padding-bottom: 120px;
   padding-left: 156px;
 }
 
@@ -89,6 +84,10 @@ img {
   justify-content: space-between;
 
   background-color: #fff;
+}
+
+.nav-page .logo {
+  margin-right: 76px;
 }
 
 .logo {
@@ -170,16 +169,14 @@ img {
 /* Main content */
 
 /* Section Offer */
-.offer {
+.section-offer {
   padding-top: 188px;
-  padding-right: 472px;
   padding-bottom: 188px;
-  padding-left: 472px;
 
   background-color: #2e2f42;
 }
 
-.offer .container {
+.section-offer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,21 +189,24 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+
+  max-width: 496px;
   margin-bottom: 48px;
 }
 
 .button-box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 
   border-radius: 4px;
   padding: 16px 32px;
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
+
+  cursor: pointer;
 }
 
 .button-text {
@@ -224,6 +224,22 @@ img {
 }
 
 /* Section Skills */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.section-skills {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -241,7 +257,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .skill-text {
@@ -252,7 +268,9 @@ img {
 }
 
 /* Section Team */
-.team {
+.section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
@@ -267,10 +285,8 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
 
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
 
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -283,7 +299,9 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   width: 232px;
 }
@@ -295,6 +313,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -306,6 +325,11 @@ img {
 }
 
 /* Portfolio Section */
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -322,7 +346,6 @@ img {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
 
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -336,6 +359,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -346,24 +370,22 @@ img {
 }
 
 /* Footer */
+footer {
+  background: #2e2f42;
+  padding-left: 156px;
+}
 
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
-  background: #2e2f42;
 }
 
 .footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-
   width: 264px;
 }
 
 .footer .logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
