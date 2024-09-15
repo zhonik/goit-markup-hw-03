@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 1470px;
+  max-width: 1440px;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
