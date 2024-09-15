@@ -9,6 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -46,7 +50,7 @@ img {
 
 /* Wrapper */
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
