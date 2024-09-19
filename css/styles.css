@@ -50,7 +50,7 @@ img {
 
 /* Wrapper */
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -73,6 +73,7 @@ img {
   padding-bottom: 24px;
   padding-left: 156px;
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
 .page-header .container {
@@ -228,6 +229,7 @@ img {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  white-space: nowrap;
 }
 
 .section-skills {
