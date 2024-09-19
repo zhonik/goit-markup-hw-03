@@ -73,7 +73,6 @@ img {
   padding-bottom: 24px;
   padding-left: 156px;
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
 
 .page-header .container {
@@ -127,7 +126,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
+  padding: 24px 0;
   margin: 0;
 }
 
