@@ -68,10 +68,9 @@ img {
 
 /* Header */
 .page-header {
-  padding-right: 156px;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 156px;
+
   border-bottom: 1px solid #e7e9fc;
 }
 
